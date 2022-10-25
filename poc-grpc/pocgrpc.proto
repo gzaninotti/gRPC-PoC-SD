@@ -1,0 +1,20 @@
+syntax = "proto3";
+option go_package = "./";
+
+package pocgrpc;
+
+// Broadcaster service definition
+service Broadcaster {
+  // Bradocast a message
+  rpc Broadcast (BroadcastReq) returns (BroadcastRes);
+}
+
+// Broadcast request with a message
+message BroadcastReq {
+  string message = 1;
+}
+
+// Broadcast response with a message
+message BroadcastRes {
+  string message = 1;
+}

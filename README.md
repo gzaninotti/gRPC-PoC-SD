@@ -1,8 +1,8 @@
 # SD
 # Pré requisitos
-##### - GoLang 1.18
+##### - GoLang 1.18 : https://go.dev/dl/
 # Instalação
-##### - git clone git@github.com:gzaninotti/gRPC-PoC-SD.git
+##### - `git clone git@github.com:gzaninotti/gRPC-PoC-SD.git`
 #  Funções
 ##### - Broadcast(): Transmite uma mensagem via servidor.
 # Utilização
